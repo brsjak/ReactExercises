@@ -7,8 +7,8 @@ function MainContent(){
         let timeOfDay
 
         if(hours<12){
-            timeOfDay="Morning";
-        }else if(hours>12 && hours <=16){
+            timeOfDay="Morning"
+        }else if(hours>12 && hours <16){
             timeOfDay="Afternoon"
         } else{
             timeOfDay="Evening"
