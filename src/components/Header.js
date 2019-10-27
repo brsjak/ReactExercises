@@ -2,7 +2,11 @@ import React from 'react'
 
 function Header(){
     return(
-        <header className="navbar">This is the header section</header>
+        <div>
+            <header className="navbar">This is the header section</header>
+            <p>Something has changed in the header section!</p>
+        </div>
+        
     )
 }
 
